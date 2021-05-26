@@ -13,7 +13,7 @@
         body {
             background: url(images/bg-image.jpg) no-repeat;
             background-size: cover;
-            height: 100vh;
+            height: 120vh;
         }
         .weather-status img{
             width: 150px;
@@ -23,16 +23,16 @@
 
 <body>
     <div class="container">
-        <h1 class="text-center pt-5 text-success">Temperature by MR~Rahman</h1>
-        <form class="col-md-6 m-auto py-3">
-            <div class="input-group mb-3">
+        <h1 class="col-lg-12 col-md-12 col-sm-12 text-center pt-5 text-success">Temperature by MR~Rahman</h1>
+        <form class="col-lg-6 col-md-6 col-sm-6 m-auto py-3">
+            <div class="input-group mb-4">
                 <input id="inputValue" type="text" class="form-control" placeholder="Enter a location for Weather ...">
                 <div class="input-group-append">
                     <button id="sub" type="button" class="btn btn-danger">Search</button>
                 </div>
             </div>
         </form>
-        <div class="weather-status text-white text-center">
+        <div class="col-lg-12 col-md-12 col-sm-12 weather-status text-white text-center">
             <img id="imgS" src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
             <h1 id="city">Dhaka</h1>
             <h3><span id="tem">38.06</span>&deg;C</h3>
